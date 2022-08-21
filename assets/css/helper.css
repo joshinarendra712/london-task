@@ -1,0 +1,66 @@
+.container{
+	width:1150px;
+	margin:0 auto;
+	/* border :1px solid black; */
+}
+
+.row,.row::after,.row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+div[class^="col"]{
+	float:left;
+}
+a:link,a:visited,a:hover,a:focus,a:active{
+	text-decoration:none;
+}
+ul,ol{
+	display:inline-block;
+}
+.text-center{
+	text-align:center;
+}
+.col-offect-1{
+	margin-left:calc(100% * 1 / 12);
+}
+.col-offect-2{
+	margin-left:calc(100% * 2 / 12);
+}
+.mb-20{
+	margin-bottom:20px;
+}
+.mb-15{
+	margin-bottom:15px;
+}
+.col12{
+	width:100%;
+}
+.col10{
+	width:calc(100% * 10 / 12);
+}
+.col9{
+	width:75%;
+}
+.col8{
+	width:calc(100% * 8 / 12);
+}
+.col7{
+	width:calc(100% * 7 /12);
+}
+.col6{
+	width:50%;
+	
+}
+.col5{
+	width:calc(100% * 5 / 12);
+}
+.col3{
+	width:25%;
+}
+.col2{
+	width:calc(100% * 2 / 12);
+}
+.col1{
+	width:calc(100% * 1 / 12);
+}
